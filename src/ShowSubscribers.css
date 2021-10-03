@@ -1,0 +1,68 @@
+.header {
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    margin: 10px;
+    padding: 30px;
+    color: cornsilk;
+}
+#button {
+    background-color: green;
+    text-align: center;
+    margin: 30px;
+    font-size: larger;
+    color: cornsilk;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.4s;
+}
+#button:hover {
+    background-color: lightgreen;
+    color: #000;
+}
+#data {
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+.heading{
+    font-weight: bold;
+}
+.info{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.name {
+    flex: 1;
+    text-align: center;
+}
+.phone{
+    flex: 1;
+    text-align: center; 
+}
+.delete{
+    flex: 0.5;
+    text-align: center;
+}
+#delete {
+    background-color: red;
+    font-size: larger;
+    align-items: center;
+    text-align: center;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.4s;
+}
+#delete:hover {
+    background-color: lightsalmon;
+    color: #000;
+}
+.dummy{
+    visibility: hidden;
+}
